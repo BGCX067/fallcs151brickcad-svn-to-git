@@ -1,0 +1,38 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+How to set up SVN on your computer
+
+= Details =
+
+ DL your favorite version control software.
+I use and recommend tortoisesvn because its easy and its beginner
+friendly. DL the witn32 binary and install it. Restart your computer.
+Now on your right clicks you now have a tortoise svn menus. Go to an
+area you want to keep your project files (Somewhere in eclipse project
+folder). Make a new folder called "fallcs151brickcad". Right click the
+folder and go to SVN Checkout...
+
+The url of the reposory will be: https://fallcs151brickcad.googlecode.com/svn/trunk/.
+Leave everything else the same. Hit OK. Your user name is essentially
+your email without the @gmail.com on it. So my email is
+andrewe...@gmail.com, my user name is AndrewEgel. Your password is
+generated on the fly (click the generate password). Enter it into the
+password field and check the remember authentication check box.
+
+Now it will download everything on the repository into that directory.
+Now you can make changes to those files. Leave the .svn folders alone,
+those are internal folders to make svn work (essentially they should
+be hidden). Currently the only file on the repo is the Star UML file I
+made really quick. This is what we have to turn in first. Make your
+changes. When your done, you need to commit the change. So go to the
+"head" of the repo (the folder at the top, in this case its
+"fallcs151brickcad"), right click it and hit "commit". A window will
+pop up with files that you have worked on. Enter in the notes filed
+what you've done, and hit OK. Now your changes will be on the server.
+And we are at a new version (called revision).
+
+When you begin working now you have to update to get the changes we
+have made. Right click the head and click update. Now any changes
+other users have made will be downloaded into the folder. 
